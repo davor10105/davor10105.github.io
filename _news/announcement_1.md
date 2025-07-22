@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-07-10 15:15:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Presented my paper [Large Language Models as Attribution Regularizers for Efficient Model Training](https://arxiv.org/abs/2502.20268) at the [The 3rd World Conference on eXplainable Artificial Intelligence](https://xaiworldconference.com/2025/).

@@ -5,18 +5,17 @@
 title: Davor Vukadin # the website title (if blank, full name will be used instead)
 first_name: Davor
 middle_name: 
-last_name: Vukadin
+last_name: <b>Vukadin</b>
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  If you have any questions, suggestions, or just want to say hello, feel free to reach out via email or connect with me on LinkedIn.
+  I am always open to new opportunities and collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: horus_nobg.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://davor10105.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -48,7 +47,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false # true
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -122,12 +121,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -144,13 +143,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false #true
   news:
     defaults:
       layout: post
-    output: true
+    output: false #true
   projects:
-    output: true
+    output: false # true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,6 +190,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/news.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/repositories.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -263,8 +268,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Vukadin]
+  first_name: [Davor, D.]
 
   style: apa
   locale: en
@@ -385,7 +390,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
