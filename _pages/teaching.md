@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description:
 nav: true
 nav_order: 6
 ---
@@ -35,7 +35,6 @@ nav_order: 6
     </tr>
   </tbody>
 </table>
-
 
 <!-- 2021 -->
 <h5>2021</h5>
