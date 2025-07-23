@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -50,6 +50,11 @@ ninja.data = [{
           description: "Visualize Vision Transformer attribution maps and evaluate attribution methods globally.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/abslrp/";
+            },},{id: "projects-dg-connect-procurement-tenders",
+          title: 'DG Connect Procurement Tenders',
+          description: "Interpretable classification for analyzing innovation criteria in EU procurement tenders.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dgcnect/";
             },},{id: "projects-attribution-eval-metrics-and-human-perception",
           title: 'Attribution Eval Metrics and Human Perception',
           description: "Evaluating the alignment between human perception and evaluation metrics for attribution-based methods.",
