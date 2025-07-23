@@ -9,6 +9,8 @@ nav_order: 3
 horizontal: false
 ---
 
+open-source projects
+
 <!-- pages/projects.md -->
 <div class="projects">
 
