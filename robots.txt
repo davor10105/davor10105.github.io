@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://davor10105.github.io/sitemap.xml
+Sitemap: https://davorvukadin.com/sitemap.xml
